@@ -1,4 +1,4 @@
 Client requests nonce.
 Server returns signed nonce.
 Client requests login session using login token.
-Server responds with session id.
+Server responds with session id, object id, keyslot.
