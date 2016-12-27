@@ -1,0 +1,17 @@
+#OPTIONS /storecrypt            controllers.CryptStorage.options()
+#OPTIONS /getcrypt              controllers.CryptStorage.options()
+#OPTIONS /test                  controllers.CryptStorage.options()
+
+
+#POST    /storecrypt            controllers.CryptStorage.storeCrypt()
+#POST    /test                  controllers.CryptStorage.test()
+#POST    /getcrypt              controllers.CryptStorage.getCrypt()
+
+
+#GET    /transaction/start          controllers.Transaction.start()
+#GET    /transaction/commit/:id     controllers.Transaction.commit(id: Long)
+#GET    /transaction/rollback/:id   controllers.Transaction.rollback(id: Long)
+
+#POST   /data/retrieve              controllers.DataObject.retrieve()
+#POST   /data/delete                controllers.DataObject.delete()
+
